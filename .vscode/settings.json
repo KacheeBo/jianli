@@ -1,0 +1,8 @@
+{
+    "java.configuration.maven.userSettings": "/Users/lijiaxi/Downloads/apache-maven-3.8.6/conf/settings.xml",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.debug.settings.exceptionBreakpoint.skipClasses": [
+    ""
+    ],
+    "liveServer.settings.port": 5501
+}

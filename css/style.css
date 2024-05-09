@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* 以下是主页面 */
+/* 整体背景 */
+.big {
+
+    width: 100%;
+    height: 100%;
+    /* background-image: url(../images/粉色.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    /* border:1px;
+    border-color: rgb(191, 222, 248);
+    border-style: groove;
+    border-radius:10px 10px 10px 10px; */
+}
+
+/* 广告浮动 */
+#advertise {
+    width: 150px;
+    height: 150px;
+    top: 60px;
+    position: fixed;
+    z-index: 2;
+    overflow: hidden;
+    /* background-color: rgb(131, 86, 86); */
+
+}
+
+#advertise img {
+    width: 150px;
+    height: 150px;
+    border-radius: 9px 9px 9px 9px;
+}
+
+.mid {
+    margin-top: -10px;
+    background-color: rgb(139, 58, 58);
+    background-image: url(../images/粉色.jpg);
+    background-size: cover;
+}
+
+/* 滚动栏 */
+.welcome {
+    background-color: rgb(236, 134, 151);
+    width: 850px;
+    height: 40px;
+    font-size: 30px;
+    color: rgb(3, 46, 44);
+    margin: 0 20%;
+}
+
+/* 导航栏 */
+.line {
+    width: 100%;
+    height: auto;
+    top: 0;
+    margin-left: 0;
+    position: fixed;
+    background-color: rgba(235, 221, 234, 0.836);
+    border: 2px;
+    border-color: rgb(211, 167, 167);
+    border-radius: 10px 10px 10px 10px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.line ul {
+    width: auto;
+    padding: 0;
+    /* 隐藏溢出的地方 */
+    overflow: hidden;
+}
+
+.line li {
+    /* width: 20%; */
+    height: auto;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    overflow: hidden;
+}
+
+.update{
+    margin-left: 1200px;
+    /* margin-top: -30px; */
+    /* padding-top: 50px; */
+    width: 100px;
+    height: 40px;
+    /* text-align: center; */
+    background-color: rgb(212, 142, 209);
+    z-index: 1;
+}
+.update a{
+    text-decoration: none;
+    color: black;
+}
+
+.line a {
+    color: black;
+    display: block;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.line a:hover {
+    border: 1px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(253, 236, 251);
+}
+
+.line ul li ul {
+    display: none;
+    background-color: rgb(238, 203, 203);
+    position: relative;
+
+}
+
+.line ul li:hover ul {
+    /* height: auto; */
+    border: 1px;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+}
+
+.line ul li ul li {
+    /* height: auto; */
+    float: none;
+    text-align: center;
+}
+
+/* 自我介绍标题 */
+.intro {
+    /* padding-top: 50px; */
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 50px;
+    color: rgb(28, 11, 90);
+    text-shadow: 10px 10px 5px rgb(73, 53, 131);
+}
+
+#time {
+    text-align: center;
+    color: rgb(157, 157, 211);
+}
+
+.sj {
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+    display: block;
+    margin: 0 auto;
+    border: 2px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* 个人信息 */
+.dh {
+    width: 100%;
+    height: 150px;
+    /* float:left;  */
+    border-radius: 10px 10px 10px 10px;
+    /* background-color: rgb(48, 22, 22); */
+}
+
+/* 信息表 */
+.tab {
+    text-align: center;
+}
+
+/* 照片 */
+.zp {
+    width: 30%;
+    height: 150px;
+    border: 1px;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+    /* background-color: rgb(184, 77, 77); */
+}
+
+/* 表格介绍 */
+.bg {
+    width: 60%;
+    height: auto;
+    border: 1px;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    clear: both;
+    /* background-color: rgb(246, 217, 247); */
+    font-size: 20px;
+}
+
+.putk {
+    width: 400px;
+    height: 30px;
+    border: 1px;
+    background-color: rgb(177, 207, 241);
+    font-size: 20px;
+    color: rgb(4, 4, 59);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* 个人介绍文字 */
+.introduction {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(167, 150, 216);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.con {
+    text-align: center;
+    color: rgb(77, 17, 36);
+}
+
+.cont {
+    text-align: center;
+    color: rgb(70, 16, 33);
+}
+
+.wzl {
+    width: 100%;
+    /* background-color: rgb(235, 214, 214); */
+}
+
+.ziwojieshao {
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    background-color: rgb(219, 243, 242);
+
+    border: 2px;
+    border-radius: 3px 3px 3px 3px;
+
+    font-size: 15px;
+    color: rgb(2, 59, 59);
+    text-align: center;
+}
+
+.bt {
+    size: 30px;
+    text-align: center;
+}
+
+/* 教育经历 */
+.education1 {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(216, 150, 175);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.education {
+    width: 100%;
+    height: 250px;
+    /* background-image: url(../images/幼幼小学.png);
+    background-size: ;
+    background-repeat: no-repeat; */
+}
+
+.education ul {
+    position: relative;
+    margin: 10px auto;
+    width: 300px;
+    font-size: 20px;
+}
+
+.education ul li {
+    list-style: none;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    /* cursor: hand; */
+    position: absolute;
+    transition: all .5s ease;
+}
+
+.item {
+    color: rgb(97, 4, 4);
+    font-weight: 650;
+    font-size: 30px;
+}
+
+/* 获奖经历 */
+.experience {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(243, 199, 230);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.hj {
+    color: rgb(17, 119, 17);
+    text-shadow: 1px 1px 1px rgb(5, 59, 5);
+    text-align: center;
+}
+
+.huojiangjingli {
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    background-color: rgb(219, 243, 242);
+
+    border: 2px;
+    border-radius: 3px 3px 3px 3px;
+
+    font-size: 15px;
+    color: rgb(2, 59, 59);
+    text-align: center;
+}
+
+.ability {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(245, 224, 129);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mal {
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    background-color: rgb(219, 243, 242);
+
+    border: 2px;
+    border-radius: 3px 3px 3px 3px;
+
+    font-size: 20px;
+    color: rgb(4, 49, 4);
+}
+
+.appraisal {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(179, 226, 221);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.yqd {
+    width: 100%;
+    height: auto;
+}
+
+.yd {
+    width: 100%;
+    height: auto;
+    border: 2px;
+    border-color: hotpink;
+    border-style: dashed;
+    /* position: absolute; */
+}
+
+.qd {
+    width: 100%;
+    height: auto;
+    border: 2px;
+    border-color: rgb(226, 142, 184);
+    border-style: dashed;
+    /* position: absolute;
+    left:52%; */
+}
+
+.ydnr {
+    text-align: left;
+    color: rgb(46, 26, 104);
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(96, 53, 131);
+}
+
+.qdnr {
+    text-align: left;
+    color: rgb(46, 26, 104);
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(96, 53, 131);
+}
+
+.ydcontent {
+    width: 100%;
+    height: 20px;
+
+    border: none;
+    border-bottom: 1px solid;
+}
+
+/* 我的美照 */
+.beauty {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(218, 112, 112);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.carousebox {
+    width: 900px;
+    height: 600px;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.carousebox li {
+    width: 900px;
+    height: 600px;
+    list-style: none;
+    float: left;
+}
+
+.carousebox ul {
+    width: 3600px;
+    height: 600px;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes anim {
+    0% {
+        margin-left: 0px;
+    }
+    25% {
+        margin-left: -900px;
+    }
+    50% {
+        margin-left: -1800px;
+    }
+    75% {
+        margin-left: -2700px;
+    }
+}
+
+.info{
+    font-style: 18px;
+    font-family: serif;
+
+}
+.info li{
+    list-style-type: none;
+}
+
+        
+        

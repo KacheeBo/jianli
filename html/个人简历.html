@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李家玺个人简历</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<!-- 以下是主页面 -->
+<div class="big" id="简历顶部">
+    <!-- 广告窗 -->
+    <div id="advertise">
+        <img id="close" src="../images/bian.gif">
+    </div>
+
+    <!-- 导航栏处 -->
+    <div class="mid">
+        <marquee class="welcome" scrollamount="10px">
+            热烈欢迎吉首大学计算机科学与技术专业的朋友们！
+            掌握计算机科学基本理论、方法与技能,并受到科学研究的初步训练,能从事计算机软、硬件研究、设计与开发的高级应用型专门人才。
+        </marquee>
+        <p class="intro">
+
+            <b>个人简历</b>
+
+        </p>
+        <p id="time">现在是</p>
+        <button type="button" class="sj" onclick="gettime()">当前时间</button>
+
+
+        <!-- 导航栏 -->
+        <div class="line">
+            <centre>
+                <ul class="navigation">
+                    <li><a href="#简历顶部">回到顶部</a></li>
+                    <li><a href="#个人介绍">个人介绍</a></li>
+                    <li><a href="#获奖经历">获奖经历</a></li>
+                    <li><a href="#专业技术能力">专业技术能力</a></li>
+                    <li><a href="#自我评价">自我评价
+                        <ul>
+                            <li><a href="#优点">优点</a></li>
+                            <li><a href="#缺点">缺点</a></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="#我的美照">我的美照</a></li>
+                    <li><a class="logints" href="../html/login.html">你好，请登录</a></li>
+
+                </ul>
+            </centre>
+        </div>
+        <br>
+        <!-- <table border="2" style="height: 700px;width: 1000px;" align="center">
+            <tr height="40px">
+                <th height="40">姓名</th>
+                <tb> <input type="text" name="姓名"> </tb>
+            </tr>
+        </table> -->
+
+        <div class="dh">
+            <!-- <div width="50px" height="150px">
+
+            </div> -->
+
+            <div class="zp">
+                <img src="../images/IMG_4808.JPG" width="100px" height="150px" align="center">
+            </div>
+
+            <button class="update">
+                <a href="update.html">
+                    修改信息
+                </a>
+            </button>
+            <!-- <div width="50px" height="150px">
+
+            </div> -->
+
+            <!--表格介绍-->
+            <div class="bg">
+                <div>
+                    <!-- <form>
+                        姓&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名：
+                        <input class="putk" name="username" value="" type="text" placeholder="">
+
+                        <br>
+                        出生日期：
+                        <input class="putk" name="birthday" value="" type="text">
+
+                        <br>
+                        政治面貌：
+                        <input class="putk" name="mianmao" value="" type="text">
+
+                        <br>
+                        电&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp话：
+                        <input class="putk" name="phonenumber" value="" type="text">
+
+                        <br>
+                        住&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp址：
+                        <input class="putk" name="address" value="" type="text">
+
+                    </form> -->
+                    <ul class="info"></ul>
+                </div>
+            </div>
+
+
+        </div>
+        <br>
+        <br>
+    </div>
+    <div class="introduction" id="个人介绍">
+        <p>
+        <h3 class="cont">
+
+            个人介绍
+
+        </h3>
+        </p>
+    </div>
+
+    <!-- 个人介绍 -->
+    <div class="wzl">
+
+    </div>
+
+    <!-- 教育经历 -->
+    <div class="education1" id="个人介绍">
+        <p>
+        <h3 class="cont">
+
+            教育经历
+
+        </h3>
+        </p>
+    </div>
+    <div class="education">
+        <ul>
+            <li class="item">小学：幼幼小学</li>
+            <li class="yltx">初中：雅礼天心</li>
+            <li class="yl">高中：雅礼中学</li>
+            <li class="jsu">大学：吉首大学</li>
+        </ul>
+
+    </div>
+
+    <!-- 获奖经历 -->
+    <div class="experience" id="获奖经历">
+        <p>
+        <h3 class="cont">
+
+            获奖经历
+
+        </h3>
+        </p>
+    </div>
+    <div>
+        <p>
+        <h4 class="hj">2008年至2014年 &nbsp&nbsp&nbsp&nbsp 小学期间</h4>
+        <input class="huojiangjingli" name="huojiangjingli" value="" type="text">
+        </p>
+
+    </div>
+
+    <div>
+        <p>
+        <h4 class="hj">2014年至2017年 &nbsp&nbsp&nbsp&nbsp 初中期间</h4>
+        <input class="huojiangjingli" name="huojiangjingli" value="" type="text">
+        </p>
+    </div>
+    <div>
+        <p>
+        <h4 class="hj">2017年至2020年 &nbsp&nbsp&nbsp&nbsp 高中期间</h4>
+        <input class="huojiangjingli" name="huojiangjingli" value="" type="text">
+        </p>
+    </div>
+    <div>
+        <p>
+        <h4 class="hj">2020年至2024年 &nbsp&nbsp&nbsp&nbsp 大学期间</h4>
+        <input class="huojiangjingli" name="huojiangjingli" value="" type="text">
+        <!-- <ul class="daxue">
+            <li class="item">1.学生一等奖学金</li>
+            <li>2.学生二等奖学金</li>
+            <li>3.学生三等奖学金</li>
+        </ul> -->
+        </p>
+    </div>
+
+    <!-- 专业技术能力 -->
+    <div class="ability" id="专业技术能力">
+        <p>
+        <h3 class="cont">
+
+            专业技术能力
+
+        </h3>
+        </p>
+    </div>
+    <div class="mal">
+        <form>
+            <table>
+                <tr>
+                    <br>
+                    <td colspan="3" class="major">专业:
+                        <input class="majorxz" type="radio" name="type" value="computer">计算机</input>
+                        <input class="majorxz" type="radio" name="type" value="software">软件工程</input>
+                        <input class="majorxz" type="radio" name="type" value="dataa">大数据</input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="5" class="licence">证书:
+                        <input class="majorxz" type="checkbox" value="">计算机二级</input>
+                        <input class="majorxz" type="checkbox" value="">计算机四级</input>
+                        <input class="majorxz" type="checkbox" value="">英语四级</input>
+                        <input class="majorxz" type="checkbox" value="">英语六级</input>
+                        <input class="majorxz" type="checkbox" value="=">教资</input>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- 自我评价 -->
+    <div class="appraisal" id="自我评价">
+        <p>
+        <h3 class="cont">
+
+            自我评价
+
+        </h3>
+        </p>
+    </div>
+    <div class="yqd">
+        <div class="yd" id="优点">
+            <p>
+            <h4 class="ydnr">
+
+                优点:
+
+            </h4>
+            <input class="ydcontent" type="textarea" name="ydcont" value="优点">
+            </p>
+        </div>
+        <div class="qd" id="缺点">
+            <p>
+            <h4 class="qdnr">
+
+                缺点:
+
+            </h4>
+            <input class="qdcontent" type="text" name="qdcont" value="缺点">
+            </p>
+        </div>
+    </div>
+
+    <!-- 我的美照轮播图 -->
+    <div class="beauty" id="我的美照">
+        <div>
+            <p>
+            <h3 class="cont">
+
+                美照
+
+            </h3>
+            </p>
+        </div>
+        <div class="carousebox">
+            <ul>
+                <!-- <li><a href="##"><img src="bbh1.JPG"></a></li> -->
+                <li><a href="##"><img src="../images/bbh2.JPG"></a></li>
+                <li><a href="##"><img src="../images/bbh3.JPG"></a></li>
+                <li><a href="##"><img src="../images/bbh4.JPG"></a></li>
+                <li><a href="##"><img src="../images/bbh5.JPG"></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+<script language="javascript" src="../js/script.js"></script>
+</html>

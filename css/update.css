@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 209, 237);
+    background-image: url(../images/fs1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: serif;
+}
+.top{
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: rgb(234, 158, 236);
+    font-family: serif;
+}
+.title1{
+    margin-left: 400px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(150, 5, 84);
+    font-family: serif;
+}
+.editbox{
+    width: 550px;
+    height: 600px;
+    margin: 0 auto;
+}
+.form{
+    /* border: 3px solid orange; */
+    height: 600px;
+}
+.form div{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.form input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 200px;
+    background-color:rgb(168, 7, 74);
+}
+.liubai{
+    width: 100%;
+    height: 50px;
+    
+}
+.box{
+    float: left;
+}
+.buttona{
+    width: 150px;
+    height: 50px;
+    margin-top: -50px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 400px;
+    background-color:rgb(168, 7, 74);
+}
+.title2{
+    margin-left: 400px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(150, 5, 84);
+}
+.editbox1{
+    width: 550px;
+    height: 600px;
+    margin: 0 auto;
+}
+.form1{
+    height: 450px;
+}
+.form1 div{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.form1 input{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.button1{
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+    font-size: 20px;
+    margin-left: 200px;
+    background-color:turquoise;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
